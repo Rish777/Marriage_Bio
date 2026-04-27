@@ -75,7 +75,7 @@ const EasterEgg: React.FC = () => {
             </p>
 
             <a 
-              href="https://instagram.com/rishabh_shukla" 
+              href="https://www.instagram.com/allabout_rish?igsh=MXZyNDI0NnoyMHA4aQ%3D%3D&utm_source=qr" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center space-x-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-semibold py-3 px-6 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 w-full"
