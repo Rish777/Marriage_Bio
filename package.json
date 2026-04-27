@@ -2,7 +2,7 @@
   
   "name": "etl-engineer-portfolio",
   
-  "homepage": "https://rish777.github.io/Resume_PORT/",
+  "homepage": "https://rish777.github.io/Marriage_Bio/",
   
   "private": true,
   
@@ -22,7 +22,13 @@
   "lint": "eslint .",
   
     
-  "preview": "vite preview"
+  "preview": "vite preview",
+  
+    
+  "predeploy": "npm run build",
+  
+    
+  "deploy": "gh-pages -d build"
   
   },
   
@@ -91,6 +97,9 @@
   
     
   "eslint-plugin-react-refresh": "^0.4.11",
+  
+    
+  "gh-pages": "^6.3.0",
   
     
   "globals": "^15.9.0",
