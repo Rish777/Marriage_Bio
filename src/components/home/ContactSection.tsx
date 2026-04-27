@@ -129,7 +129,7 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-medium mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://linkedin.com/in/rishabhshukla" 
+                  href="https://www.linkedin.com/in/rishabh-shukla-69a511aa/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-background-accent hover:bg-primary-600 text-text-primary w-10 h-10 rounded-full flex items-center justify-center transition-colors"

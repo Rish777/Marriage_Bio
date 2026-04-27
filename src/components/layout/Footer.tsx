@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
               <a href="mailto:corp.mail.rishabh@gmail.com" className="text-text-secondary hover:text-primary-500 transition-colors" aria-label="Email">
                 <Mail size={20} />
               </a>
-              <a href="https://linkedin.com/in/rishabhshukla" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-primary-500 transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/rishabh-shukla-69a511aa/" target="_blank" rel="noopener noreferrer" className="text-text-secondary hover:text-primary-500 transition-colors" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </div>
