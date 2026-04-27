@@ -1,0 +1,23 @@
+runtime: nodejs20 #r nodejs18, depending on your needs.  Choose a supported version
+
+handlers:
+  # Serve static assets from the 'build' directory
+  - url: /(.*\.(js|css|svg|png|jpg|jpeg|gif|woff2|woff|ttf|eot|ico))$
+    static_files: build/\1
+    upload: build/.*\.(js|css|svg|png|jpg|jpeg|gif|woff2|woff|ttf|eot|ico)$
+
+  # Serve the resume and icon - Place these *before* the catch-all
+  - url: /(data-icon\.svg|Rishabh_Resume\.pdf)$  #Corrected regex
+    static_files: build/\1 # Added build/ prefix
+    upload: build/(data-icon\.svg|Rishabh_Resume\.pdf) # Added build/ prefix
+
+  # Rewrite all other requests to index.html (React Router)
+  - url: /.*
+    static_files: build/index.html # Added build/ prefix
+    upload: build/index.html
+
+# Optional settings for performance and scaling
+instance_class: F1
+automatic_scaling:
+  min_instances: 1
+  max_instances: 3
