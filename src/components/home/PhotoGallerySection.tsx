@@ -11,14 +11,13 @@ const PhotoGallerySection: React.FC = () => {
 
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState<number | null>(null);
 
-  // These are placeholders. You can replace them with actual paths like '/Marriage_Bio/photo1.jpg'
   const photos = [
-    '/Marriage_Bio/profile.jpg', // Using the main profile picture as a placeholder
-    'https://picsum.photos/seed/picsum1/400/400',
-    'https://picsum.photos/seed/picsum2/400/400',
-    'https://picsum.photos/seed/picsum3/400/400',
-    'https://picsum.photos/seed/picsum4/400/400',
-    'https://picsum.photos/seed/picsum5/400/400'
+    '/Marriage_Bio/photo1.jpg',
+    '/Marriage_Bio/photo2.jpg',
+    '/Marriage_Bio/photo3.jpg',
+    '/Marriage_Bio/photo4.jpg',
+    '/Marriage_Bio/photo5.jpg',
+    '/Marriage_Bio/photo6.jpg'
   ];
 
   // Handle keyboard navigation for lightbox
